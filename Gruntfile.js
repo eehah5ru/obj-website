@@ -47,9 +47,9 @@ module.exports = function(grunt) {
 	  destPrefix: 'static/js'
 	},
 	files: {
-	  'jquery.js': 'jquery/dist/jquery.js',
-	  'modernizr.js': 'modernizr/modernizr.js',
-	  'what-input.js': 'what-input/what-input.js'
+	  'vendor/jquery.js': 'jquery/dist/jquery.js',
+	  'vendor/modernizr.js': 'modernizr/modernizr.js',
+	  'vendor/what-input.js': 'what-input/what-input.js'
 	}
       }      
     },
