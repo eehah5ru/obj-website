@@ -2,3 +2,5 @@
 /css/*
 /bower_components/*
 /node_modules/*
+static/css/*
+/static/js/vendor/*
