@@ -1,0 +1,51 @@
+;; :cl-environment
+;; (defun tt (sym-name)
+;;   (page-content "first-seminar"
+;; 		(concatenate 'string
+;; 			     "t-"
+;; 			     (string-downcase (string sym-name)))))
+
+:title
+First Seminar
+
+:title lang=ru
+Первая сессия
+
+:template
+other.lisp
+
+:markup
+none
+
+;; :t-seminar-description lang=en markup=123
+;; asd
+
+;; :t-seminar-description lang=ru
+;; aaaa
+
+:index-contents lang=en
+first session index content
+
+:index-contents lang=ru
+парвая сессия, контент для индекса
+
+:index-template
+index-section.lisp
+
+
+:contents lang=en
+aaaaa eng content
+
+:contents lang=ru
+bbb rus content
+
+;; $(xml
+  
+;;   (multiple-value-bind (data type args)
+;;       (get-data :t-seminar-description)
+;;     ;; (tt 'seminar-description)
+;;     (format *error-output* "ENVIRONMENT: ~A~%" *environment*)
+;;     (format *error-output* "SEMINAR-DESCRIPTION: ~A - ~A - ~A~%" data type args)))
+
+;; :contents lang=ru
+;; (+ 1 2)

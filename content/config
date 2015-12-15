@@ -1,0 +1,29 @@
+:site-name
+O O O O O B J
+
+:site-name lang=ru
+О О О О О Б Ж
+
+:teaser-text lang=en
+OBJ
+
+:teaser-text lang=ru
+ОБЖ
+
+:languages
+en ru
+
+;; :default-language
+;; ru
+
+:commands
+nvm use ;\
+grunt build
+
+:default
+:contents markup=markdown
+:title markup=none
+:sub-title markup=none
+
+:root-cl-environment
+(load #p"hacks.lisp")

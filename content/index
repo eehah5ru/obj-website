@@ -1,0 +1,11 @@
+:title
+O B J
+
+:title lang=ru
+О Б Ж
+
+:template
+index.lisp
+
+:depends
+pages/

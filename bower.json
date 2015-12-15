@@ -1,6 +1,26 @@
 {
-  "name": "foundation-libsass-template",
+  "name": "obj-website",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nicola Spesivtsev <nicola.spesivcev@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "fastclick": ">=0.6.11",
+    "jquery-placeholder": "~2.0.7",
+    "foundation-sites": "~6.0.5",
+    "jquery.cookie": "~1.4.0",
+    "modernizr": "2.8.3"
   }
 }
